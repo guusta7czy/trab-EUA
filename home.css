@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    padding: 15px 40px;
+    background-color: #0a3161;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo img {
+    width: 70px;
+}
+
+.logo h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    color: white;
+    background: #8b1010;
+    padding: 10px 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    background: #a31616;
+}
+
+/*norepeat: para deixar so uma imagem e sem repetir*/
+.frase {
+    height: 550px;
+    background: url("https://www.infomoney.com.br/wp-content/uploads/2019/06/nova-york-5.jpg?w=900&quality=70&strip=all")
+    no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frase-texto  {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.frase-texto  h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.frase-texto h1 strong {
+    color: #b50000;
+}
+
+.frase-texto p {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.conteudo {
+    background: #e6eef2;
+    padding: 60px 120px;
+}
+
+.conteudo h2 {
+    margin-top: 40px;
+    font-size: 26px;
+}
+
+.conteudo p {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 1.7;
+}

@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #d9e1e8;
+}
+
+header {
+    background-color: #0f2f57;
+    padding: 15px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    width: 100%;
+    padding: 15px 40px;
+    background-color: #0a3161;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo img {
+    width: 70px;
+}
+
+.logo h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    color: white;
+    background: #8b1010;
+    padding: 10px 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    background: #a31616;
+}
+
+main {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 40px;
+}
+
+
+img {
+    width: 100%;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card {
+    background: #eef1f6;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+    display: flex;
+    gap: 25px;
+}
+
+.lado-textos {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 30px;
+}
+
+
+
+.info {
+    width: 65%;
+}
+
+.info h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 26px;
+}
+
+
+
+.bom-para {
+    width: 30%;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 12px;
+    height: fit-content;
+}
+
+.bom-para h3 {
+    margin-top: 0;
+}
+
+.bom-para ul {
+    margin: 0;
+    padding-left: 18px;
+}
+
+.bom-para ul li {
+    margin-bottom: 6px;
+}
+

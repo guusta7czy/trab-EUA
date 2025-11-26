@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #d9e2ee;
+}
+
+header {
+    width: 100%;
+    padding: 15px 40px;
+    background-color: #0a3161;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo img {
+    width: 70px;
+}
+
+.logo h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    color: white;
+    background: #8b1010;
+    padding: 10px 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    background: #a31616;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.quiz-container {
+    width: 60%;
+    background: #022b57;
+    margin: 50px auto;
+    padding: 50px;
+    border-radius: 80px;
+    color: white;
+}
+
+
+.botao {
+    background: #b50000;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 16px;
+    display: block;
+    margin: 20px auto 0;
+}
